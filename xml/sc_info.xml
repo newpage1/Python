@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE scourse-list[
+	<!ELEMENT scourse-list(sc)>
+	<!ELEMENT sc(sname,sid,sgrade,course)>
+	<!ELEMENT course(cid,cname,teacher,cscore)>
+	<!ELEMENT sname(#PCDATA)>
+	<!ELEMENT sid(#PCDATA)>
+	<!ELEMENT sgrade(#PCDATA)>
+	<!ELEMENT cid(#PCDATA)>
+	<!ELEMENT cname(#PCDATA)>
+	<!ELEMENT teacher(#PCDATA)>
+	<!ELEMENT cscore(#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="defstyle.xsl"?>
+
+<scourse-list>
+<sc>
+<sname>Zhurui</sname>
+<sid>14S003018</sid>
+<sgrade>postgraduate</sgrade>
+<course>
+<cid>#0001</cid>
+<cname>database</cname>
+<teacher>Zhan</teacher>
+<cscore>90</cscore>
+</course>
+</sc>
+<scourse-list>
+<sc>
+<sname>Zhurui</sname>
+<sid>14S003018</sid>
+<sgrade>postgraduate</sgrade>
+<course>
+<cid>#0002</cid>
+<cname>pattern_recongnization</cname>
+<teacher>Liu</teacher>
+<cscore>90</cscore>
+</course>
+</sc>
+
