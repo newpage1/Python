@@ -1,3 +1,5 @@
 from math import log,e,ceil
 from random import *
-print 0*'2'
+
+str = randrange(2)
+print str
