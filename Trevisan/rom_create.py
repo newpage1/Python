@@ -10,7 +10,7 @@ for i in range(128):
     input_text = input_text + result + ',\r\n'
     result = str()
 
-output = open('ram_init.coe','wb')
+output = open('4k_ram_init.coe','wb')
 output.write(input_text)
 output.flush()
 output.close()
