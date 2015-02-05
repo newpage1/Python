@@ -1,4 +1,7 @@
 __author__ = 'Owner'
+"""
+used to create the ram-init file memory init file
+"""
 input_text = str()
 from random import *
 input_text += 'WIDTH=12;\r\nDEPTH=512;\r\nADDRESS_RADIX=HEX;\r\nDATA_RADIX=BIN;\r\nCONTENT BEGIN\r\n'
