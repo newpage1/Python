@@ -9,6 +9,7 @@ class sc:
 		self.__cname = cname
 		self.__teacher = teacher
 		self.__cscore = cscore
+
 	        self.__idx = idx
 
 	def print_info(self):
