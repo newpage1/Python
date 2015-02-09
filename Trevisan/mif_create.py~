@@ -23,7 +23,6 @@ input_text += 'END;'
 output = open('init_fifo.mif','wb')
 output.write(input_text)
 output.flush()
-
 output.close()
 
 
