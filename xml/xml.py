@@ -26,6 +26,8 @@ def get_data(file_path):
         s_temp = r'<%s>(.+?)</%s>'%(si,si)
         result.append(re.compile(s_temp,re.DOTALL))
 
+
+
     scourse_list = remine[0].findall(str_tmp)
 
     for idx,item in enumerate(scourse_list):
